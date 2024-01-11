@@ -1,0 +1,44 @@
+.cover-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.cover-image img{
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin-top: 12%;
+}
+
+hr{
+    opacity: 0.2;
+}
+.top-section{
+    display: flex;
+    font-weight: 900;
+    color: #311436;
+    font-size: 25px;
+
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.description{
+    color: #b3adb5;
+}
